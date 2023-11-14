@@ -3,9 +3,7 @@ const mongoose = require("mongoose");
 const FoodSchema = mongoose.Schema({
     title: String,
     releaseYear: Number,
-    genre: String,
-    director: String,
-    actors: String,
+    category: String,
     description: String,
     rating: Number,
     image: String,
